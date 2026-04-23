@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directort: backend
+        working-directory: backend
     steps:
       - name: Print Hello
         run: echo "Hello World"
