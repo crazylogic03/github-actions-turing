@@ -7,4 +7,5 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
-        
+      - name: Add Numbers
+        run: node index.js
